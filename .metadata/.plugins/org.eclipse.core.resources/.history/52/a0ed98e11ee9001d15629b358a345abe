@@ -1,0 +1,21 @@
+package com.example.DemoProject.ExceptionHandler;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class ControllerAdvisor {
+	
+	@ExceptionHandler(UserNotFoundException.class)
+	public String handleUserNotFoundException(UserNotFoundException ex)
+	{
+		return ex.getMessage();
+	}
+
+	
+	@ExceptionHandler({HttpMessageNotReadableException.class})
+    public String idException(HttpMessageNotReadableException hp) {
+        return new ResponseEntity("Not a valid Id.", HttpStatus.OK);
+    }
+	
+}

@@ -1,0 +1,16 @@
+package com.example.DemoProject.ExceptionHandler;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class ControllerAdvisor {
+	
+	@ExceptionHandler(UserNotFoundException.class)
+	public String handleUserNotFoundException(UserNotFoundException ex)
+	{
+		ex.
+		return 
+	}
+
+}

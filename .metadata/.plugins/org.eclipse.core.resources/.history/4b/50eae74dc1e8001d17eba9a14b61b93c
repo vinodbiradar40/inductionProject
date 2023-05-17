@@ -1,0 +1,5 @@
+package com.example.demo.ActiveMqDemo.Controller;
+
+public class MyController {
+
+}

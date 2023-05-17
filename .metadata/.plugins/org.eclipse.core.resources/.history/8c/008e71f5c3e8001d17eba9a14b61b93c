@@ -1,0 +1,10 @@
+spring.jms.listener.auto-startup=true
+spring.jms.pub-sub-domain=true
+
+
+
+spring.activemq.broker-url=tcp://localhost:
+spring.activemq.user=admin
+spring.activemq.password=admin
+spring.activemq.in-memory=false
+spring.activemq.packages.trust-all=true

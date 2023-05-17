@@ -1,0 +1,10 @@
+package com.example.DemoProject.ExceptionHandler;
+
+public class UserNotFoundException extends RuntimeException {
+	
+	public String message(String msg)
+	{
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+2023-04-21T12:01:25.361+05:30  INFO 10336 --- [main] com.LogFile.LoggingFileApplication       : Starting LoggingFileApplication using Java 17.0.6 with PID 10336 (C:\Users\ScopeSys\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\LoggingFile\target\classes started by ScopeSys in C:\Users\ScopeSys\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\LoggingFile)
+2023-04-21T12:01:25.371+05:30  INFO 10336 --- [main] com.LogFile.LoggingFileApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-21T12:01:26.676+05:30  INFO 10336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-21T12:01:26.698+05:30  INFO 10336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-21T12:01:26.700+05:30  INFO 10336 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-21T12:01:26.839+05:30  INFO 10336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-21T12:01:26.841+05:30  INFO 10336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1386 ms
+2023-04-21T12:01:27.373+05:30  INFO 10336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-21T12:01:27.392+05:30  INFO 10336 --- [main] com.LogFile.LoggingFileApplication       : Started LoggingFileApplication in 2.645 seconds (process running for 3.473)
+2023-04-21T12:01:29.655+05:30  INFO 10336 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21T12:01:29.656+05:30  INFO 10336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-21T12:01:29.657+05:30  INFO 10336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-21T12:01:29.692+05:30  INFO 10336 --- [http-nio-8080-exec-2] c.LogFile.MyController.ControllerAdvice  : Console log
+2023-04-21T12:01:29.692+05:30  WARN 10336 --- [http-nio-8080-exec-2] c.LogFile.MyController.ControllerAdvice  : Warning
+2023-04-21T15:23:32.047+05:30  INFO 10336 --- [RMI TCP Connection(137)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-21T15:23:32.072+05:30  INFO 10336 --- [RMI TCP Connection(137)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-21T15:23:32.074+05:30  INFO 10336 --- [RMI TCP Connection(137)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-21T19:29:24.422+05:30  INFO 11192 --- [main] com.LogFile.LoggingFileApplication       : Starting LoggingFileApplication using Java 17.0.6 with PID 11192 (C:\Users\ScopeSys\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\LoggingFile\target\classes started by ScopeSys in C:\Users\ScopeSys\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\LoggingFile)
+2023-04-21T19:29:24.424+05:30  INFO 11192 --- [main] com.LogFile.LoggingFileApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-21T19:29:25.101+05:30  INFO 11192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-21T19:29:25.108+05:30  INFO 11192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-21T19:29:25.109+05:30  INFO 11192 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]

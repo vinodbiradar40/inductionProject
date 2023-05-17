@@ -1,0 +1,11 @@
+package com.example.DemoProject.Entities;
+
+import javax.persistence.Entity;
+
+@Entity
+
+public class OrderItem {
+	
+	private int id;
+
+}

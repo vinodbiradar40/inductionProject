@@ -1,0 +1,59 @@
+package com.example.DemoProject.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.DemoProject.Entities.Customer;
+import com.example.DemoProject.Entities.Orders;
+import com.example.DemoProject.Repository.OrdersRepo;
+
+@RestController
+public class OrdersController {
+	
+	@Autowired
+	private OrdersRepo ordersRepo;
+	
+	@PostMapping("createOrders")
+	public boolean create(@RequestBody Orders order)
+	{
+		ordersRepo.save(order);
+		return true;
+	}
+
+	@GetMapping("readOrdersDetails")
+	public List<Orders> readDetails()
+	{
+		return ordersRepo.findAll();
+	}
+	
+	@GetMapping("readOrdersDetails/{id}")
+	public List<Orders> readDetailsById(@PathVariable int id)
+	{
+		return ordersRepo.findAll();
+	}
+	
+	@PutMapping("updateOrdersDetails/{id}")
+	public boolean updateDetails(@PathVariable int id,@RequestBody Orders orders)
+	{
+		orders.setId(id);
+		customerRepo.save(customer);
+		return true;
+	}
+	
+	
+	@DeleteMapping("deleteDetails/{id}")
+	public boolean delete(@PathVariable int id)
+	{
+		customerRepo.deleteById(id);
+		return true;
+	}
+
+}
