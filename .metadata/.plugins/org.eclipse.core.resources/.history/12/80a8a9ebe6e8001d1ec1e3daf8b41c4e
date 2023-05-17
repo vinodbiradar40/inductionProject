@@ -1,5 +1,0 @@
-package com.example.DemoProject.Repository;
-
-public interface OrdersRepo {
-
-}

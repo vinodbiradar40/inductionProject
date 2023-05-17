@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author ScopeSys
- *
- */
-module Alien {
-}

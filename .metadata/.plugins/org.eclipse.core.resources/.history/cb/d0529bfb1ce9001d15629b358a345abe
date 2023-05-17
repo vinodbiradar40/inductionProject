@@ -1,5 +1,0 @@
-package com.example.DemoProject.ExceptionHandler;
-
-public class UserNotFoundException {
-
-}
